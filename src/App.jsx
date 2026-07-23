@@ -32,15 +32,15 @@ const SOUPS = [
   { id: "ogbono", name: "Ogbono Soup", initial: "O", price: 6000, from: "#7A5230", to: "#3C2414",
     img: wc("Ogbono soup.jpg"),
     desc: "Silky draw soup thickened with wild mango seed, slow-simmered to a velvet finish." },
-  { 
-  id: "seafood-okra", 
-  name: "Seafood Okra", 
-  initial: "S", 
-  price: 8500, 
-  from: "#4E8F72", 
+  {
+  id: "seafood-okra",
+  name: "Seafood Okra",
+  initial: "S",
+  price: 8500,
+  from: "#4E8F72",
   to: "#1F4A3B",
-  img: "https://i.imgur.com/uFnCvQg.jpg",
-  desc: "A rich, traditional okra soup loaded with prawns, crab, and fresh seafood, cooked to a flavorful, silky perfection." 
+  img: "https://i.imgur.com/uFnCvQg.jpg", // ✅ FIXED
+  desc: "A vibrant, stretchy okra stew loaded with prawns, crab and the day's fresh catch."
 },
   { id: "afang", name: "Afang Soup", initial: "A", price: 9000, from: "#5C8A3E", to: "#233F16",
     img: wc("Afang soup and pounded yam 01.jpg"),
@@ -84,7 +84,7 @@ const FEATURED_IDS = ["egusi", "afang", "fisherman"];
 const GALLERY = [
   { name: "Egusi Soup", img: wc("Pot of Egusi soup.jpg", 600), tall: true },
   { name: "Ogbono Soup", img: wc("Ogbono soup.jpg", 600) },
-  { name: "Seafood Okra", img: wc("Pounded yam with Okra meat and fish soup.jpg", 600), tall: true },
+  { name: "Seafood Okra", img: "https://i.imgur.com/uFnCvQg.jpg", tall: true },
   { name: "Afang Soup", img: wc("Afang soup and pounded yam 04.jpg", 600) },
   { name: "Fisherman Soup", img: wc("Nigerian Fisherman Soup.jpg", 600) },
   { name: "Edikang Ikong", img: wc("Afang soup and pounded yam 05.jpg", 600), tall: true },
