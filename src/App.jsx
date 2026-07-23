@@ -79,7 +79,9 @@ const FEATURED_IDS = ["egusi", "afang", "fisherman"];
 const GALLERY = [
   { name: "Egusi Soup", img: wc("Pot of Egusi soup.jpg", 600), tall: true },
   { name: "Ogbono Soup", img: wc("Ogbono soup.jpg", 600) },
-  { name: "Seafood Okra", img: "https://imgur.com/gallery/XqAICwr#S2vryqR", tall: true },
+
+  { name: "Seafood Okra", img: "https://commons.wikimedia.org/wiki/Special:FilePath/Okra_Soup.jpg?width=700", tall: true },
+
   { name: "Afang Soup", img: wc("Afang soup and pounded yam 04.jpg", 600) },
   { name: "Fisherman Soup", img: wc("Nigerian Fisherman Soup.jpg", 600) },
   { name: "Edikang Ikong", img: wc("Afang soup and pounded yam 05.jpg", 600), tall: true },
