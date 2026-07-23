@@ -39,8 +39,8 @@ const SOUPS = [
   price: 8500, 
   from: "#4E8F72", 
   to: "#1F4A3B",
-  img: "https://i.imgur.com/8vKzL2P.jpeg",
-  desc: "A vibrant, stretchy okra stew loaded with prawns, crab and the day's fresh catch." 
+  img: "https://images.unsplash.com/photo-1604908176997-431c1a0b8e7b",
+  desc: "A rich, flavorful okra soup packed with prawns, crab, and fresh seafood in a deliciously silky, traditional blend." 
 },
   { id: "afang", name: "Afang Soup", initial: "A", price: 9000, from: "#5C8A3E", to: "#233F16",
     img: wc("Afang soup and pounded yam 01.jpg"),
