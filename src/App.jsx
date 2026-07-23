@@ -33,7 +33,7 @@ const SOUPS = [
     img: wc("Ogbono soup.jpg"),
     desc: "Silky draw soup thickened with wild mango seed, slow-simmered to a velvet finish." },
   { id: "seafood-okra", name: "Seafood Okra", initial: "S", price: 8500, from: "#4E8F72", to: "#1F4A3B",
-    img: wc("Pounded yam with Okra meat and fish soup.jpg"),
+    img: "https://picsum.photos/id/1080/800/600",
     desc: "A vibrant, stretchy okra stew loaded with prawns, crab and the day's fresh catch." },
   { id: "afang", name: "Afang Soup", initial: "A", price: 9000, from: "#5C8A3E", to: "#233F16",
     img: wc("Afang soup and pounded yam 01.jpg"),
