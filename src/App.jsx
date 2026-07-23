@@ -32,16 +32,11 @@ const SOUPS = [
   { id: "ogbono", name: "Ogbono Soup", initial: "O", price: 6000, from: "#7A5230", to: "#3C2414",
     img: wc("Ogbono soup.jpg"),
     desc: "Silky draw soup thickened with wild mango seed, slow-simmered to a velvet finish." },
-  {
-  id: "seafood-okra",
-  name: "Seafood Okra",
-  initial: "S",
-  price: 8500,
-  from: "#4E8F72",
-  to: "#1F4A3B",
-  img: "https://imgur.com/gallery/XqAICwr#S2vryqR", // ✅ FIXED
-  desc: "A vibrant, stretchy okra stew loaded with prawns, crab and the day's fresh catch."
-},
+
+  { id: "seafood-okra", name: "Seafood Okra", initial: "S", price: 8500, from: "#4E8F72", to: "#1F4A3B",
+  img: "https://commons.wikimedia.org/wiki/Special:FilePath/Okra_Soup.jpg?width=700",
+  desc: "A vibrant, stretchy okra stew loaded with prawns, crab and the day's fresh catch." },
+
   { id: "afang", name: "Afang Soup", initial: "A", price: 9000, from: "#5C8A3E", to: "#233F16",
     img: wc("Afang soup and pounded yam 01.jpg"),
     desc: "Layers of afang and waterleaf simmered with beef and periwinkle in palm oil." },
